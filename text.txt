@@ -1,0 +1,11 @@
+#jenkins:lts container
+docker exec -u 0 -it d0982911899a /bin/bash
+```
+#python installieren, um ein python programm laufen zu lassen
+apt-get update
+apt-get install -y python3 python3-pip
+apt install pipx
+pipx install pytest
+```
+
+
