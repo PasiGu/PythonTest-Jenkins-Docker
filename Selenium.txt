@@ -1,0 +1,15 @@
+Selenium ist ein Framework für automatisierte Softwaretests von Webanwendungen, die von einem Programmiererteam der Firma ThoughtWorks entwickelt und als freie Software unter der Apache-2.0-Lizenz veröffentlicht wurde¹. Mit Selenium ist es möglich, Interaktionen mit einer Webanwendung aufnehmen zu lassen und diese Tests automatisiert beliebig oft zu wiederholen. Selenium basiert rein auf HTML und JavaScript¹.
+
+Selenium kann sinnvoll in einer Jenkins Pipeline verwendet werden, um die Qualität und Zuverlässigkeit der Webanwendung zu gewährleisten. Eine Jenkins Pipeline ist eine Reihe von Schritten, die den gesamten Lebenszyklus einer Webanwendung abbilden, von der Versionierung über das Bauen bis hin zum Testen und Ausliefern². Mit Hilfe von Selenium kann man in einer Jenkins Pipeline verschiedene Szenarien testen, wie zum Beispiel:
+
+- Die Funktionalität der Webanwendung auf verschiedenen Browsern und Plattformen überprüfen.
+- Die Benutzerfreundlichkeit und das Design der Webanwendung bewerten.
+- Die Leistung und die Sicherheit der Webanwendung messen.
+
+Um Selenium in einer Jenkins Pipeline zu verwenden, muss man zunächst das Pipeline Plugin installieren und eine Jenkinsfile erstellen, die die Pipeline definiert². In der Jenkinsfile kann man dann die Schritte angeben, die Selenium ausführen soll, zum Beispiel:
+
+- Das Selenium Framework herunterladen und installieren.
+- Die Webanwendung starten und eine URL angeben, die getestet werden soll.
+- Die Testfälle definieren oder aus einer externen Quelle laden.
+- Die Testergebnisse auswerten und gegebenenfalls Fehler melden.
+
